@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1672 941" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="北斗七星动画版">
+  <title>北斗七星（金棕色，证据显现后连线）</title>
+  <desc>透明底。星星按从大到小顺序显现，越小的星显现越慢。全部显现后，连线再依次出现。勺口不闭合。</desc>
+  <line x1="124" y1="371" x2="124" y2="371" stroke="#B8945A" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="7 9" stroke-opacity="0" fill="none">
+    <animate attributeName="stroke-opacity" from="0" to="0.56" begin="4.59s" dur="0.08s" fill="freeze"/>
+    <animate attributeName="x2" from="124" to="447" begin="4.59s" dur="0.26s" fill="freeze" calcMode="spline" keySplines="0.20 0.85 0.25 1" keyTimes="0;1"/>
+    <animate attributeName="y2" from="371" to="230" begin="4.59s" dur="0.26s" fill="freeze" calcMode="spline" keySplines="0.20 0.85 0.25 1" keyTimes="0;1"/>
+  </line>
+  <line x1="447" y1="230" x2="447" y2="230" stroke="#B8945A" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="7 9" stroke-opacity="0" fill="none">
+    <animate attributeName="stroke-opacity" from="0" to="0.56" begin="4.90s" dur="0.08s" fill="freeze"/>
+    <animate attributeName="x2" from="447" to="686" begin="4.90s" dur="0.26s" fill="freeze" calcMode="spline" keySplines="0.20 0.85 0.25 1" keyTimes="0;1"/>
+    <animate attributeName="y2" from="230" to="293" begin="4.90s" dur="0.26s" fill="freeze" calcMode="spline" keySplines="0.20 0.85 0.25 1" keyTimes="0;1"/>
+  </line>
+  <line x1="686" y1="293" x2="686" y2="293" stroke="#B8945A" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="7 9" stroke-opacity="0" fill="none">
+    <animate attributeName="stroke-opacity" from="0" to="0.56" begin="5.21s" dur="0.08s" fill="freeze"/>
+    <animate attributeName="x2" from="686" to="979" begin="5.21s" dur="0.26s" fill="freeze" calcMode="spline" keySplines="0.20 0.85 0.25 1" keyTimes="0;1"/>
+    <animate attributeName="y2" from="293" to="355" begin="5.21s" dur="0.26s" fill="freeze" calcMode="spline" keySplines="0.20 0.85 0.25 1" keyTimes="0;1"/>
+  </line>
+  <line x1="979" y1="355" x2="979" y2="355" stroke="#B8945A" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="7 9" stroke-opacity="0" fill="none">
+    <animate attributeName="stroke-opacity" from="0" to="0.56" begin="5.52s" dur="0.08s" fill="freeze"/>
+    <animate attributeName="x2" from="979" to="1084" begin="5.52s" dur="0.26s" fill="freeze" calcMode="spline" keySplines="0.20 0.85 0.25 1" keyTimes="0;1"/>
+    <animate attributeName="y2" from="355" to="578" begin="5.52s" dur="0.26s" fill="freeze" calcMode="spline" keySplines="0.20 0.85 0.25 1" keyTimes="0;1"/>
+  </line>
+  <line x1="1084" y1="578" x2="1084" y2="578" stroke="#B8945A" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="7 9" stroke-opacity="0" fill="none">
+    <animate attributeName="stroke-opacity" from="0" to="0.56" begin="5.83s" dur="0.08s" fill="freeze"/>
+    <animate attributeName="x2" from="1084" to="1485" begin="5.83s" dur="0.26s" fill="freeze" calcMode="spline" keySplines="0.20 0.85 0.25 1" keyTimes="0;1"/>
+    <animate attributeName="y2" from="578" to="502" begin="5.83s" dur="0.26s" fill="freeze" calcMode="spline" keySplines="0.20 0.85 0.25 1" keyTimes="0;1"/>
+  </line>
+  <line x1="1485" y1="502" x2="1485" y2="502" stroke="#B8945A" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="7 9" stroke-opacity="0" fill="none">
+    <animate attributeName="stroke-opacity" from="0" to="0.56" begin="6.14s" dur="0.08s" fill="freeze"/>
+    <animate attributeName="x2" from="1485" to="1479" begin="6.14s" dur="0.26s" fill="freeze" calcMode="spline" keySplines="0.20 0.85 0.25 1" keyTimes="0;1"/>
+    <animate attributeName="y2" from="502" to="219" begin="6.14s" dur="0.26s" fill="freeze" calcMode="spline" keySplines="0.20 0.85 0.25 1" keyTimes="0;1"/>
+  </line>
+  <!-- 摇光 / Alkaid -->
+  <circle cx="124" cy="371" r="0" fill="#B8945A" fill-opacity="0">
+    <animate attributeName="r" from="0" to="14.30" begin="0.81s" dur="0.46s" fill="freeze" calcMode="spline" keySplines="0.22 0.85 0.35 1" keyTimes="0;1"/>
+    <animate attributeName="fill-opacity" from="0" to="0.88" begin="0.81s" dur="0.46s" fill="freeze"/>
+  </circle>
+  <!-- 开阳 / Mizar -->
+  <circle cx="447" cy="230" r="0" fill="#B8945A" fill-opacity="0">
+    <animate attributeName="r" from="0" to="13.00" begin="1.35s" dur="0.55s" fill="freeze" calcMode="spline" keySplines="0.22 0.85 0.35 1" keyTimes="0;1"/>
+    <animate attributeName="fill-opacity" from="0" to="0.88" begin="1.35s" dur="0.55s" fill="freeze"/>
+  </circle>
+  <!-- 玉衡 / Alioth -->
+  <circle cx="686" cy="293" r="0" fill="#B8945A" fill-opacity="0">
+    <animate attributeName="r" from="0" to="14.95" begin="0.00s" dur="0.28s" fill="freeze" calcMode="spline" keySplines="0.22 0.85 0.35 1" keyTimes="0;1"/>
+    <animate attributeName="fill-opacity" from="0" to="0.88" begin="0.00s" dur="0.28s" fill="freeze"/>
+  </circle>
+  <!-- 天权 / Megrez -->
+  <circle cx="979" cy="355" r="0" fill="#B8945A" fill-opacity="0">
+    <animate attributeName="r" from="0" to="7.28" begin="3.51s" dur="0.82s" fill="freeze" calcMode="spline" keySplines="0.22 0.85 0.35 1" keyTimes="0;1"/>
+    <animate attributeName="fill-opacity" from="0" to="0.88" begin="3.51s" dur="0.82s" fill="freeze"/>
+  </circle>
+  <!-- 天玑 / Phecda -->
+  <circle cx="1084" cy="578" r="0" fill="#B8945A" fill-opacity="0">
+    <animate attributeName="r" from="0" to="11.05" begin="2.70s" dur="0.73s" fill="freeze" calcMode="spline" keySplines="0.22 0.85 0.35 1" keyTimes="0;1"/>
+    <animate attributeName="fill-opacity" from="0" to="0.88" begin="2.70s" dur="0.73s" fill="freeze"/>
+  </circle>
+  <!-- 天璇 / Merak -->
+  <circle cx="1485" cy="502" r="0" fill="#B8945A" fill-opacity="0">
+    <animate attributeName="r" from="0" to="11.31" begin="1.98s" dur="0.64s" fill="freeze" calcMode="spline" keySplines="0.22 0.85 0.35 1" keyTimes="0;1"/>
+    <animate attributeName="fill-opacity" from="0" to="0.88" begin="1.98s" dur="0.64s" fill="freeze"/>
+  </circle>
+  <!-- 天枢 / Dubhe -->
+  <circle cx="1479" cy="219" r="0" fill="#B8945A" fill-opacity="0">
+    <animate attributeName="r" from="0" to="14.69" begin="0.36s" dur="0.37s" fill="freeze" calcMode="spline" keySplines="0.22 0.85 0.35 1" keyTimes="0;1"/>
+    <animate attributeName="fill-opacity" from="0" to="0.88" begin="0.36s" dur="0.37s" fill="freeze"/>
+  </circle>
+</svg>
