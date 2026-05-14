@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120" role="img" aria-labelledby="title desc">
+  <title id="title">自知之鸣 animated ink ripple logo - 竹青色</title>
+  <desc id="desc">A central dot emits slow concentric ripples, with the Chinese characters 自知之鸣 in KaiTi style.</desc>
+
+  <g transform="translate(78 60)">
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#4F7C6B" stroke-width="1.6" opacity="0.45">
+      <animate attributeName="r" values="8;34" dur="3s" begin="0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.45;0.18;0" keyTimes="0;0.55;1" dur="3s" begin="0s" repeatCount="indefinite" />
+      <animate attributeName="stroke-width" values="1.6;0.8;0.2" dur="3s" begin="0s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#4F7C6B" stroke-width="1.6" opacity="0">
+      <animate attributeName="r" values="8;34" dur="3s" begin="1s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.45;0.18;0" keyTimes="0;0.05;0.6;1" dur="3s" begin="1s" repeatCount="indefinite" />
+      <animate attributeName="stroke-width" values="1.6;1.6;0.8;0.2" keyTimes="0;0.05;0.6;1" dur="3s" begin="1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#4F7C6B" stroke-width="1.6" opacity="0">
+      <animate attributeName="r" values="8;34" dur="3s" begin="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.45;0.18;0" keyTimes="0;0.05;0.6;1" dur="3s" begin="2s" repeatCount="indefinite" />
+      <animate attributeName="stroke-width" values="1.6;1.6;0.8;0.2" keyTimes="0;0.05;0.6;1" dur="3s" begin="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="6" fill="#4F7C6B" opacity="0.96">
+      <animate attributeName="r" values="5.6;6.4;5.6" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.92;1;0.92" dur="3s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <text x="132" y="62" fill="#4F7C6B" font-family="KaiTi, STKaiti, Kaiti SC, serif" font-size="38" font-weight="400" letter-spacing="3" dominant-baseline="middle">自知之鸣</text>
+</svg>
